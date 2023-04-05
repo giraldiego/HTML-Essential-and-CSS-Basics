@@ -9,12 +9,19 @@ body {
 
 /* Typography */
 
-h1 {
-  margin: .8125rem 0 0 0;
+h1, h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
+}
+
+h1 {
+  margin: .8125rem 0 0 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 h3 {
@@ -23,9 +30,28 @@ h3 {
   line-height: 2rem;
 }
 
+p {
+  line-height: 1.375;
+}
+
+/* Sections  */
+
 main {
   background-color: #EEEEEE;
   padding: 5.5rem;
+}
+
+main h2 {
+  color: #464547;
+}
+
+main h3 {
+  margin: 2.5rem 0;
+  color: #666666;
+}
+
+main p {
+  color: black;
 }
 
 .hero {
@@ -41,6 +67,22 @@ main {
 }
 
 .hero h3 {
-  margin: 2.5rem 0 0 0;
   color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  margin: 1.3125rem 0;
+  padding: 0.3125rem 1.125rem;
+
+  background: #55C2D8;
+  color: white;
+  border-radius: 18px;
+  border: none;
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
