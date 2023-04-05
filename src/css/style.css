@@ -36,15 +36,17 @@ p {
 }
 
 /* Sections  */
+
+section {
+  padding: 5.5rem;
+}
+
 .hero {
   background-image: url("../assets/bg-hero.jpg");
+  background-size: cover;
   color: white;
   padding: 16rem;
   /* display: none; */
-}
-
-.hero .container {
-  margin: 0 auto;
 }
 
 .hero h3 {
@@ -53,7 +55,7 @@ p {
 
 .main {
   background-color: #EEEEEE;
-  padding: 5.5rem;
+  /* display: none; */
 }
 
 .main h2 {
@@ -71,13 +73,27 @@ p {
 
 .learn-more {
   background-color: yellow;
+  background-image: url("../assets/bg-learn_more.jpg");
+  background-size: cover;
+}
+
+.learn-more h2, 
+.learn-more h3 {
+  color: white;
+}
+
+.learn-more button {
+  margin: 3.3rem 0 4.4rem 0;
+  padding: 0.3125em .7em;
+  font-size: 4rem;
+  border-radius: 50%;
 }
 
 /* Elements */
 
 button {
-  margin: 1.3125rem 0;
-  padding: 0.3125rem 1.125rem;
+  margin: 1.3125em 0;
+  padding: 0.3125em 1.125em;
 
   background: #55C2D8;
   color: white;
@@ -87,7 +103,7 @@ button {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: .875rem;
-  line-height: 1.625rem;
+  line-height: 1.625em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
