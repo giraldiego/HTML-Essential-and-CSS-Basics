@@ -36,25 +36,6 @@ p {
 }
 
 /* Sections  */
-
-main {
-  background-color: #EEEEEE;
-  padding: 5.5rem;
-}
-
-main h2 {
-  color: #464547;
-}
-
-main h3 {
-  margin: 2.5rem 0;
-  color: #666666;
-}
-
-main p {
-  color: black;
-}
-
 .hero {
   background-image: url("../assets/bg-hero.jpg");
   color: white;
@@ -69,6 +50,30 @@ main p {
 .hero h3 {
   color: rgba(255, 255, 255, 0.7);
 }
+
+.main {
+  background-color: #EEEEEE;
+  padding: 5.5rem;
+}
+
+.main h2 {
+  color: #464547;
+}
+
+.main h3 {
+  margin: 2.5rem 0;
+  color: #666666;
+}
+
+.main p {
+  color: black;
+}
+
+.learn-more {
+  background-color: yellow;
+}
+
+/* Elements */
 
 button {
   margin: 1.3125rem 0;
