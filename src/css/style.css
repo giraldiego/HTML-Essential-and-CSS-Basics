@@ -25,6 +25,7 @@ h2 {
 }
 
 h3 {
+  margin: 2.5rem 0;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -57,7 +58,6 @@ main p {
 .hero {
   background-image: url("../assets/bg-hero.jpg");
   color: white;
-  display: flex;
   padding: 16rem;
   /* display: none; */
 }
