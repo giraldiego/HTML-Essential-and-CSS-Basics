@@ -1,5 +1,15 @@
 # HTML-Essential-and-CSS-Basics
 
-Your First HTML Markup
+## Style Your Markup
 
-Let's refresh your knowledge about the HTML syntax and create your first HTML markup! This markup will come in handy at the end of the HTML and CSS course as you will create a full landing page based on this markup.
+Good job! You have your first HTML markup without styles. It's time to create the styles according to the provided design and to work with colors, backgrounds, fonts, indents, etc.
+
+## How this task will be evaluated
+
+We expect your solution to the task to meet the following criteria:
+
+- You have applied 2 background images in the styles
+- You have commented the header section in HTML
+- You have not used the style attribute in HTML
+- You have written styles to one CSS file or several separate CSS files
+- Your markup matches the specific image in the task
